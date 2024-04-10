@@ -5,3 +5,42 @@ width: 150px;
 .place-holder {
 width: 100px
 }
+.nav-h1{
+    display: inline;
+}
+
+.nav{
+    float: right;
+}
+
+#about-me {
+  
+}
+
+.
+
+.nav-li{
+    display: inline;
+    list-style: none;
+    padding-left: 15px;
+}
+
+@media screen and (min-width: 1080px) {
+    .nav-h1{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .nav-h1{
+        width: 100%;
+    }
+  }
+
+project-1{
+    background-image: url('./images/search-engine-optimization.jpg');
+    display: flex;
+    max-height: 20%;
+    background-size: 100%;
+    
+}
