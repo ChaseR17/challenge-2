@@ -1,29 +1,55 @@
-.past-work {
-width: 150px;
-} 
-
-.place-holder {
-width: 100px
-}
-.nav-h1{
-    display: inline;
-}
-
-.nav{
-    float: right;
-}
-
-#about-me {
-  
-}
-
-.
-
+/*Header*/
 .nav-li{
     display: inline;
     list-style: none;
     padding-left: 15px;
 }
+
+.nav-h1{
+    display: inline;
+}
+/*HELP why do i need this seperate class .nav (when i dont have it i cant get the text to align at the top in the nav bar*/
+.nav{
+    float: right;
+}
+
+/*Main*/
+body {
+    background-color:rgb(162, 238, 163); 
+}
+
+.pic-me{
+    width: 20%;
+    display: inline-block;
+    list-style: none;
+}
+
+
+
+/*About Me*/
+#about-me {
+  background-color: aqua;
+  border-style: dashed;
+  border-color: black;
+
+}
+/* HELP Want to make the app space in multiple rows and evenly */
+.nav-app {
+list-style: none;
+display:flex;
+justify-content: space-evenly;
+background-color: aqua;
+  border-style: dashed;
+  border-color: black;
+}
+
+.past-work {
+    width: 20%;
+    } 
+    
+.place-holder {
+    width: 50%;
+    }
 
 @media screen and (min-width: 1080px) {
     .nav-h1{
