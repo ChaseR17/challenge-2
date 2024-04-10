@@ -39,6 +39,11 @@ body {
 /*My Work Section*/
 /* HELP Want to make the app space in multiple rows and evenly */
 /* HELP Want to make the image centered in the back ground with barely any space outside the image*/
+.portfolio {
+    display:flex;
+    flex-direction: column;
+}
+
 .nav-app {
     list-style: none;
     background-color: aqua;
@@ -52,13 +57,18 @@ body {
    
 }
 .past-work {
-    width: 20%;
+    max-width: 100%;
     }   
     
 .place-holder {
-    width: 10%;
+   max-width: 100%;
     }
-
+.row {
+    display:flex;
+}
+.main-project{
+    width:50%;
+}
  /*Screen Sizing*/
 @media screen and (min-width: 1080px) {
     .nav-h1{
