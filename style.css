@@ -18,39 +18,48 @@ body {
     background-color:rgb(162, 238, 163); 
 }
 
+/*About Me Section*/
+.text-pic-container{
+    display: flex;
+    padding-top: 2%;
+    float: right;
+}
 .pic-me{
     width: 20%;
-    display: inline-block;
     list-style: none;
 }
 
-
-
-/*About Me*/
-#about-me {
-  background-color: aqua;
-  border-style: dashed;
-  border-color: black;
-
+#about-me {  
+    background-color: aqua;
+    border-style: dashed;
+    border-color: black;
+    padding-left: 2%;
 }
+
+/*My Work Section*/
 /* HELP Want to make the app space in multiple rows and evenly */
+/* HELP Want to make the image centered in the back ground with barely any space outside the image*/
 .nav-app {
-list-style: none;
-display:flex;
-justify-content: space-evenly;
-background-color: aqua;
-  border-style: dashed;
-  border-color: black;
+    list-style: none;
+    background-color: aqua;
+    border-style: dashed;
+    border-color: black;
 }
 
+#my-work {
+    padding-top: 32%;
+    padding-bottom: 2%;
+   
+}
 .past-work {
     width: 20%;
-    } 
+    }   
     
 .place-holder {
-    width: 50%;
+    width: 10%;
     }
 
+ /*Screen Sizing*/
 @media screen and (min-width: 1080px) {
     .nav-h1{
         width: 100%;
@@ -63,10 +72,4 @@ background-color: aqua;
     }
   }
 
-project-1{
-    background-image: url('./images/search-engine-optimization.jpg');
-    display: flex;
-    max-height: 20%;
-    background-size: 100%;
-    
-}
+
